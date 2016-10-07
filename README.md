@@ -1,8 +1,8 @@
 Tasky
 =====
-This app shows how to implement UITest and Unit Tests into a Xamarin.Forms project.
+This app contains a test to illustrate UITest and Unit Tests in a Xamarin.Forms project.
 
-The UITests follow the recommended practice of Page Object testing.
+I followed the recommended best practices of basic UITesting using C#.
 
 Tasky is a simple cross-platform todo/task application sample that allows
 you to track todo/task items created by Bryan Costanich and Craig Dunn.
