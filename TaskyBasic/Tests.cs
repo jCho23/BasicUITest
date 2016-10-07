@@ -47,7 +47,7 @@ namespace TaskyBasic
 			app.Screenshot("Tapped on Add New Task Button");
 
 			app.Tap(x => x.Id("NameText"));
-			app.Screenshot("Tapped on Name Field");Í
+			app.Screenshot("Tapped on Name Field");
 
 			app.EnterText("Feed Kirby");
 			app.Screenshot("Typed the name of my Task");
