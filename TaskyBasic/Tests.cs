@@ -39,7 +39,7 @@ namespace TaskyBasic
 			app.Repl();
 		}
 
-
+		//This is a basic UI Test using C# and UITest
 		[Test]
 		public void AndroidAddTaskTest()
 		{
@@ -47,7 +47,7 @@ namespace TaskyBasic
 			app.Screenshot("Tapped on Add New Task Button");
 
 			app.Tap(x => x.Id("NameText"));
-			app.Screenshot("Tapped on Name Field");
+			app.Screenshot("Tapped on Name Field");Í
 
 			app.EnterText("Feed Kirby");
 			app.Screenshot("Typed the name of my Task");
