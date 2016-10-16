@@ -52,14 +52,12 @@ namespace TaskyBasic
 			app.EnterText("Feed Kirby");
 			app.Screenshot("Typed the name of my Task");
 			app.DismissKeyboard();
-			app.DismissKeyboard();
 
 			app.Tap(x => x.Id("NotesText"));
 			app.Screenshot("Tapped on Notes Field");
 
 			app.EnterText("Kirby runs wild when he is hungry");
 			app.Screenshot("Typed my note on Kirby");
-			app.DismissKeyboard();
 			app.DismissKeyboard();
 
 			app.Tap(x => x.Id("chkDone"));
