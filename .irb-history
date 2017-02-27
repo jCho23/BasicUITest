@@ -1,0 +1,14 @@
+reinstall_apps
+exit
+reinstall_apps
+start_test_server_in_background
+query "*"
+query "*"
+touch "TextView id:'action_bar_title'"
+flash "TextView id:'action_bar_title'"
+flash "id:'action_bar_title'"
+flash "* id:'action_bar_title'"
+exit
+reinstall apps
+reinstall_apps
+reinstall_apps
